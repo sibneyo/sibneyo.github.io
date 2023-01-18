@@ -1,99 +1,86 @@
-
-
-.topnav
-
-{background-color: rgb(25, 80, 52);
-
+.topnav {
+  background-color: rgb(25, 80, 52);
 }
 
-
-.topnav a 
-
-{
-color: rgb(255, 225, 0);
-padding: 14px 16px;
-
-
+.topnav a {
+  color: rgb(255, 225, 0);
+  padding: 14px 16px;
 }
 
-
-
-body
-
-{background-color: aquamarine;
-margin: 15px;
+body {
+  background-color: aquamarine;
+  margin: 15px;
 }
 
-
-img {width: 150px;
-    height: 150px; }
-
-#title
-
-
-    {text-align: center;
-background-color: aqua;
-
-
-    width: 200px;
-    border: 15px solid rgb(23, 0, 128);
-    padding: 20px;
-    margin:   auto;
-   justify-content: center;
+img {
+  width: 150px;
+  height: 150px;
 }
 
+#title {
+  text-align: center;
+  background-color: aqua;
 
-footer 
-
-{
-text-align: center;
-
-background-color: aqua;
-
-width: 200px;
-border: 15px solid rgb(23, 0, 128);
-padding: 20px;
-margin:  auto; 
-justify-content: center;
-
-
-
+  width: 200px;
+  border: 15px solid rgb(23, 0, 128);
+  padding: 20px;
+  margin: auto;
+  justify-content: center;
 }
 
+footer {
+  text-align: center;
 
+  background-color: aqua;
 
-#strength-list
-{
+  width: 200px;
+  border: 15px solid rgb(23, 0, 128);
+  padding: 20px;
+  margin: auto;
+  justify-content: center;
+}
+
+#strength-list {
   color: blue;
-
-
 }
 
-#values
-{
-
-color: blueviolet;
-
-
-
+#values {
+  color: blueviolet;
 }
 
-ol
-{
-    list-style: none;
-    color: blueviolet;
+ol {
+  list-style: none;
+  color: blueviolet;
+}
+
+#development {
+  color: red;
+}
+
+ul {
+  list-style: none;
+}
+
+.child {
+  position: relative;
+  top: 200px;
+
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+#parent {
+  width: 600px;
+  background-color: white;
+  height: 600px;
 }
 
 
-#development
+.random
 
-{ color: red;
-
-}
-
-ul
-
-{list-style: none;
+{position: fixed;
+    
+width: 50px;
+height: 50px;
 
 }
-

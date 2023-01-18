@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+
+    <body>
+      <img
+        src="https://devacademy.co.nz/wp-content/uploads/2022/05/brandmark_white_pattern.png"
+      />
+
+      <nav>
+        <div class="topnav">
+          <a
+            class="active"
+            href="file:///Users/Sidney/devacademy/sibneyo.github.io/index.html"
+            >Home</a
+          >
+          <a
+            href="file:///Users/Sidney/devacademy/sibneyo.github.io/blog/html-css.html"
+            >MoreCSS</a
+          >
+          <a href="#learning-plan">My Learning Plan</a>
+          <a
+            href="file:///Users/Sidney/devacademy/sibneyo.github.io/blog/identity-values.html"
+            >Identity & Values</a
+          >
+        </div>
+      </nav>
+      <h2>Positioning in CSS: Relative, Absolute and Fixed</h2>
+
+      <h3>Intro:</h3>
+      <p>
+        Positioning in CSS is how elements are spaced on the screen. In ordinary
+        html, elements travel for left to right and top to bottom along 'blocks'
+        One block is one iteration from left to right with out dropping down.
+      </p>
+
+      <p>
+        Positioning enables a user to move an element based on a pixel
+        coordinate and reference point, for example:
+
+        <br />
+        <br />
+
+        position: Relative; <br />top: 200px;<br /><br />
+
+        will position the element 200px down from the top of the browsing
+        window. Imagine the whitespace below is browser window:
+      </p>
+
+      <div id="parent">
+        <div class="child"></div>
+      </div>
+      <p>As you can see the red square is dropped down 200px.</p>
+      <h3>Relative, Abosolute, and Fixed:</h3>
+
+      <p>
+        The qualities of relative positioning are that it moves an element in
+        reference to the browser window and will leave the space of its original
+        position vacant. As though it was still there but is not visible.
+      </p>
+
+      <p>
+        The qualities of absolute positioning is that, unlike relative, the
+        space of its original position will be vacant. Also absolute is in
+        reference to a parent element as opposed to the browser window.
+      </p>
+
+      <p>
+        The qualities of fixed is that it is 'fixed' in relation to the viewport
+        so it will travel with the browser even when one scrolls up, down, or
+        from side to side. Like absolute positioning, fixed positioning makes
+        the original position of the element vacant. Other elements will
+        therefore move into this space.
+      </p>
+    </body>
+  </html>
+</html>
